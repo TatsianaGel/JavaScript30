@@ -1,0 +1,41 @@
+body{
+			background: url('../img/fon.jpg') fixed; 
+}	
+
+.keys{
+	position: absolute;
+	left: 45vh;
+	top:  38vh;
+	width: 870px;
+	vertical-align: center;
+
+}
+
+.key{
+	border: 1.5px solid #1C1C1C;
+	background-color: rgba(163,163,163,0.6); 
+	display: inline-block;
+	margin-left: 10px;
+	width: 80px;
+	z-index:-1;
+	text-align: center;
+    box-shadow: 0 0 5px grey;
+}
+.active{
+	transform: scale(1.1);
+     box-shadow: 0 0 10px #ffc600
+}
+kbd{
+
+	font-size: 50px;
+}
+.sound{
+	background: grey;
+	color: #ffc600;
+	display: block;
+	letter-spacing: 1px;
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	line-height: 0.7em;
+	padding: 5px;
+}
