@@ -4,26 +4,28 @@ body{
 
 .keys{
 	position: absolute;
-	left: 45vh;
+	left: 44vh;
 	top:  38vh;
-	width: 870px;
+	width: 1000px;
 	vertical-align: center;
 
 }
 
 .key{
-	border: 1.5px solid #1C1C1C;
+	border: 1.7px solid #1C1C1C;
 	background-color: rgba(163,163,163,0.6); 
 	display: inline-block;
-	margin-left: 10px;
+	margin-left: 18px;
 	width: 80px;
 	z-index:-1;
 	text-align: center;
     box-shadow: 0 0 5px grey;
+	transition: all 0.07s;
 }
 .active{
-	transform: scale(1.1);
-     box-shadow: 0 0 10px #ffc600
+	transform: scale(1.2);
+    box-shadow: 0 0 10px #ffc600;
+    border-color: #ffc600;
 }
 kbd{
 
