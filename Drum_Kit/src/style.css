@@ -1,23 +1,22 @@
-body{
+html,body{
+			height: 91%;
 			background: url('../img/fon.jpg') fixed; 
-}	
+			margin-left: 50px;
+}			
 
 .keys{
-	position: absolute;
-	left: 44vh;
-	top:  38vh;
-	width: 1000px;
-	vertical-align: center;
-
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
 }
 
 .key{
 	border: 1.7px solid #1C1C1C;
 	background-color: rgba(163,163,163,0.6); 
 	display: inline-block;
-	margin-left: 18px;
+	margin-left: 20px;
 	width: 80px;
-	z-index:-1;
 	text-align: center;
     box-shadow: 0 0 5px grey;
 	transition: all 0.07s;
